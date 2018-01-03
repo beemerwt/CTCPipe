@@ -22,8 +22,9 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{7D25B346-A158-4871-B5B5-E92F037A774B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>CTCPipe</RootNamespace>
+    <RootNamespace>IPCP</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName>IPCP</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -144,16 +145,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="CTCFunc.h" />
-    <ClInclude Include="CTCPipe.h" />
-    <ClInclude Include="CTCType.h" />
+    <ClInclude Include="IPCFunc.h" />
+    <ClInclude Include="IPCPipe.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CTCFunc.cpp" />
-    <ClCompile Include="CTCPipe.cpp" />
-    <ClCompile Include="CTCType.cpp" />
+    <ClCompile Include="IPCFunc.cpp" />
+    <ClCompile Include="IPCPipe.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

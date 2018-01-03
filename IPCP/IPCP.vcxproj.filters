@@ -21,13 +21,10 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CTCPipe.h">
+    <ClInclude Include="IPCFunc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CTCFunc.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CTCType.h">
+    <ClInclude Include="IPCPipe.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -35,13 +32,10 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CTCPipe.cpp">
+    <ClCompile Include="IPCFunc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CTCFunc.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CTCType.cpp">
+    <ClCompile Include="IPCPipe.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
